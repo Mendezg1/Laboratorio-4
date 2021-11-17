@@ -3,6 +3,6 @@ public interface MReproductor {
     public String cambiarCancion(int a);
     public String Escuchar();
     public String getListas();
-    public int posCancion();
-    public int listaActual();
+    int posCancion;
+    int listaActual;
 }
